@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background-color: #000 !important;
+
+color: #adb5bd;
+
+}
+*{
+    color: #adb5bd !important;
+}
+a{
+  color:#ffc815 !important;
+  text-decoration: none !important;
+}
+
+.posts-wrap{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0px;
+}
+.mx-auto {
+
+}
+
+pre {
+  background-color: #2e2b2b;
+  text-wrap: balance;
+padding: 20px;
+  margin-bottom: 10px;
+}
+
+p{
+  margin-bottom: 16px;
+}
