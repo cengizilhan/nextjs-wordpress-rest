@@ -1,5 +1,6 @@
 async function getData() {
-  const res = await fetch('https://cengizilhan.com//wp-json/wp/v2/posts')
+
+  const res = await fetch(`${process.env.baseSite}/wp-json/wp/v2/posts`)
   // The return value is *not* serialized
   // You can return Date, Map, Set, etc.
 
