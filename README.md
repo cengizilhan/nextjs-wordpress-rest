@@ -1,3 +1,12 @@
+for Env file,
+1- create .env.local file
+2- add the WordPress site url like below:
+baseSite=https://cengizilhan.com/
+
+or if you using Vercel, then add env parameters on Vercel.
+
+Made by Tailwind & Next JS
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
