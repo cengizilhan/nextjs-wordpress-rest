@@ -1,3 +1,4 @@
+![Logger.txt](./ss.jpg)
 for Env file,
 1- create .env.local file
 2- add the WordPress site url like below:
