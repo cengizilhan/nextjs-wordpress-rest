@@ -16,7 +16,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
     const data = await getData(params.slug);
 
     return <main className='container mx-auto'>
-
+    <h1 className='mb-5' >Results for {params.slug}</h1>
         {data.map((item: any) => {
             return <a key={item.id} href={`/post/${item.id}`}>
                 <b>{item.title}</b>
