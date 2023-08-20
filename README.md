@@ -7,6 +7,8 @@ for Env file,
 2- add the WordPress site url like below:
 baseSite=https://cengizilhan.com/
 
+Live: https://nextjs-wordpress-rest.vercel.app/
+
 or if you using Vercel, then add env parameters on Vercel.
 
 Made by Tailwind & Next JS
